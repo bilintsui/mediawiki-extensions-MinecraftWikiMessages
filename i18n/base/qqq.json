@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bilin Tsui"
+		]
+	},
+	"mcwmsgs": "{{Optional}}\n\nName of Extension.",
+	"mcwmsgs-desc": "Extension description in [[Special:Version]]."
+}

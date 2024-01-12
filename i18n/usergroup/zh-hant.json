@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bilin Tsui"
+		]
+	},
+	"group-autopatroller": "巡查豁免者",
+	"group-autopatroller.js": "/* 這裡的任何JavaScript只會為巡查豁免者載入 */",
+	"group-autopatroller.css": "/* 此 CSS 會影響巡查豁免者 */",
+	"group-autopatroller-member": "{{GENDER:$1|巡查豁免者}}",
+	"grouppage-autopatroller": "{{ns:project}}:巡查豁免者",
+	"group-cats": "全域破壞處理員",
+	"group-cats.js": "/* 這裡的任何JavaScript只會為全域破壞處理員載入 */",
+	"group-cats.css": "/* 此 CSS 會影響全域破壞處理員 */",
+	"group-cats-member": "{{GENDER:$1|全域破壞處理員}}",
+	"grouppage-cats": "{{ns:project}}:CATS",
+	"group-global-interface-maintainer": "全域介面維護員",
+	"group-global-interface-maintainer.js": "/* 這裡的任何JavaScript只會為全域介面維護員載入 */",
+	"group-global-interface-maintainer.css": "/* 此 CSS 會影響全域介面維護員 */",
+	"group-global-interface-maintainer-member": "{{GENDER:$1|全域介面維護員}}",
+	"grouppage-global-interface-maintainer": "{{ns:project}}:全域介面維護員",
+	"group-patroller": "巡查員",
+	"group-patroller.js": "/* 這裡的任何JavaScript只會為巡查員載入 */",
+	"group-patroller.css": "/* 此 CSS 會影響巡查員 */",
+	"group-patroller-member": "{{GENDER:$1|巡查員}}",
+	"grouppage-patroller": "{{ns:project}}:巡查員"
+}

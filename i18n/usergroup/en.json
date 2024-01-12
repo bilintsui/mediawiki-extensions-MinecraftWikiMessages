@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bilin Tsui"
+		]
+	},
+	"group-autopatroller": "Autopatrollers",
+	"group-autopatroller.js": "/* Any JavaScript here will be loaded for autopatrollers only */",
+	"group-autopatroller.css": "/* CSS placed here will affect autopatrollers only */",
+	"group-autopatroller-member": "{{GENDER:$1|autopatroller}}",
+	"grouppage-autopatroller": "{{ns:project}}:Autopatrollers",
+	"group-cats": "CATS",
+	"group-cats.js": "/* Any JavaScript here will be loaded for CATS only */",
+	"group-cats.css": "/* CSS placed here will affect CATS only */",
+	"group-cats-member": "{{GENDER:$1|CATS member}}",
+	"grouppage-cats": "{{ns:project}}:CATS",
+	"group-global-interface-maintainer": "Global interface maintainers",
+	"group-global-interface-maintainer.js": "/* Any JavaScript here will be loaded for global interface maintainers only */",
+	"group-global-interface-maintainer.css": "/* CSS placed here will affect global interface maintainers only */",
+	"group-global-interface-maintainer-member": "{{GENDER:$1|global interface maintainer}}",
+	"grouppage-global-interface-maintainer": "{{ns:project}}:Global interface maintainers",
+	"group-patroller": "Patrollers",
+	"group-patroller.js": "/* Any JavaScript here will be loaded for patrollers only */",
+	"group-patroller.css": "/* CSS placed here will affect patrollers only */",
+	"group-patroller-member": "{{GENDER:$1|patroller}}",
+	"grouppage-patroller": "{{ns:project}}:Patrollers"
+}

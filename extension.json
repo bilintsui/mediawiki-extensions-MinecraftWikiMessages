@@ -1,0 +1,146 @@
+{
+	"manifest_version": 2,
+	"namemsg": "mcwmsgs",
+	"name": "MinecraftWikiMessages",
+	"type": "other",
+	"author": [
+		"[https://github.com/bilintsui Bilin Tsui]"
+	],
+	"url": "https://github.com/bilintsui/mediawiki-extensions-MinecraftWikiMessages",
+	"descriptionmsg": "mcwmsgs-desc",
+	"license-name": "GPL-3.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.39.0"
+	},
+	"namespaces": [
+		{
+			"id": 3000,
+			"constant": "NS_TUTORIAL",
+			"name": "Tutorial",
+			"subpages": true,
+			"content": true
+		},
+		{
+			"id": 3001,
+			"constant": "NS_TUTORIAL_TALK",
+			"name": "Tutorial_talk",
+			"subpages": true
+		}
+	],
+	"GroupPermissions": {
+		"autopatroller": {
+			"autopatrol": true
+		},
+		"cats": {
+			"abusefilter-log-detail": true,
+			"abusefilter-log-private": true,
+			"abusefilter-modify": true,
+			"abusefilter-modify-global": true,
+			"abusefilter-modify-restricted": true,
+			"abusefilter-revert": true,
+			"apihighlimits": true,
+			"autoconfirmed": true,
+			"autopatrol": true,
+			"block": true,
+			"browsearchive": true,
+			"deletedhistory": true,
+			"deletedtext": true,
+			"deletelogentry": true,
+			"deleterevision": true,
+			"delete": true,
+			"directoreditprotected": true,
+			"editprotected": true,
+			"editsemiprotected": true,
+			"globalblock": true,
+			"globalblock-whitelist": true,
+			"ipblock-exempt": true,
+			"markbotedits": true,
+			"movefile": true,
+			"mwoauthproposeconsumer": true,
+			"mwoauthupdateownconsumer": true,
+			"noratelimit": true,
+			"override-antispoof": true,
+			"patrolmarks": true,
+			"protectsite": true,
+			"protect": true,
+			"reupload": true,
+			"reupload-shared": true,
+			"rollback": true,
+			"skipcaptcha": true,
+			"spamblacklistlog": true,
+			"suppressredirect": true,
+			"tboverride": true,
+			"titleblacklistlog": true,
+			"transcode-reset": true,
+			"unblockself": true,
+			"undelete": true
+		},
+		"global-interface-maintainer": {
+			"autopatrol": true,
+			"directoreditprotected": true,
+			"editcontentmodel": true,
+			"editinterface": true,
+			"editprotected": true,
+			"editsemiprotected": true,
+			"editsitecss": true,
+			"editsitejs": true,
+			"editsitejson": true,
+			"editusercss": true,
+			"edituserjs": true,
+			"edituserjson": true,
+			"protect": true
+		},
+		"patroller": {
+			"autoconfirmed": true,
+			"autopatrol": true,
+			"editsemiprotected": true,
+			"movefile": true,
+			"mwoauthproposeconsumer": true,
+			"mwoauthupdateownconsumer": true,
+			"patrol": true,
+			"reupload": true,
+			"reupload-shared": true,
+			"rollback": true,
+			"searchdigest-reader": true,
+			"skipcaptcha": true,
+			"suppressredirect": true,
+			"transcode-reset": true
+		}
+	},
+	"PrivilegedGroups": [
+		"autopatroller",
+		"cats",
+		"global-interface-maintainer",
+		"patroller"
+	],
+	"GroupsAddToSelf": {
+		"cats": [
+			"bot"
+		]
+	},
+	"GroupsRemoveFromSelf": {
+		"autopatroller": [
+			"autopatroller"
+		],
+		"cats": [
+			"bot"
+		],
+		"patroller": [
+			"patroller"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"MinecraftWikiMessagesNamespaces": "MinecraftWikiMessages.namespaces.php"
+	},
+	"MessagesDirs": {
+		"Base": [
+			"i18n/base"
+		],
+		"Namespace": [
+			"i18n/namespace"
+		],
+		"UserGroup": [
+			"i18n/usergroup"
+		]
+	}
+}

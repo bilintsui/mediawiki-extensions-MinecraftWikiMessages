@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bilin Tsui"
+		]
+	},
+	"mcwmsgs": "MinecraftWikiMessages",
+	"mcwmsgs-desc": "Minecraft Wiki specific customization settings"
+}

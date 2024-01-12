@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bilin Tsui"
+		]
+	},
+	"nstab-tutorial": "The name for the tab of the Tutorial namespace.\n\n\nSee also:\n* {{msg-mw|Nstab-tutorial}}\n* {{msg-mw|Tooltip-ca-nstab-tutorial}}",
+	"tooltip-ca-nstab-tutorial": "Tooltip shown when hovering over the {{msg-mw|Nstab-tutorial}} tab.\n\n\nSee also:\n* {{msg-mw|Nstab-tutorial}}\n* {{msg-mw|Tooltip-ca-nstab-tutorial}}"
+}

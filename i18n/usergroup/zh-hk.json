@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bilin Tsui"
+		]
+	},
+	"group-global-interface-maintainer": "全域界面維護員",
+	"group-global-interface-maintainer.js": "/* 這裡的任何JavaScript只會為全域界面維護員載入 */",
+	"group-global-interface-maintainer.css": "/* 此 CSS 會影響全域界面維護員 */",
+	"group-global-interface-maintainer-member": "{{GENDER:$1|全域界面維護員}}",
+	"grouppage-global-interface-maintainer": "{{ns:project}}:全域界面維護員"
+}
