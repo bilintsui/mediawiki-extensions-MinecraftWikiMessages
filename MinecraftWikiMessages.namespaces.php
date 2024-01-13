@@ -6,8 +6,6 @@
  * @ingroup Extensions
  */
 
-require_once __DIR__ . '/MinecraftWikiMessages.constants.php';
-
 $namespaceNames = [];
 
 $namespaceAliases = [];

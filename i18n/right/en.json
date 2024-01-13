@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bilin Tsui"
+		]
+	},
+	"right-editdirectorprotected": "Edit pages protected as \"{{int:protect-level-director}}\"",
+	"protect-level-director": "Allow only directors"
+}

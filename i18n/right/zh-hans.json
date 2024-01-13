@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bilin Tsui"
+		]
+	},
+	"right-editdirectorprotected": "编辑保护级别为“{{int:protect-level-director}}”的页面",
+	"protect-level-director": "仅允许向导"
+}

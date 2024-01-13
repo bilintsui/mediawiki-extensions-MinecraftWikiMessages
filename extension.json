@@ -31,7 +31,22 @@
 		"autopatroller": {
 			"autopatrol": true
 		},
-		"cats": {
+		"global-interface-maintainer": {
+			"autopatrol": true,
+			"editcontentmodel": true,
+			"editdirectorprotected": true,
+			"editinterface": true,
+			"editprotected": true,
+			"editsemiprotected": true,
+			"editsitecss": true,
+			"editsitejs": true,
+			"editsitejson": true,
+			"editusercss": true,
+			"edituserjs": true,
+			"edituserjson": true,
+			"protect": true
+		},
+		"global-vandalization-handler": {
 			"abusefilter-log-detail": true,
 			"abusefilter-log-private": true,
 			"abusefilter-modify": true,
@@ -48,7 +63,7 @@
 			"deletelogentry": true,
 			"deleterevision": true,
 			"delete": true,
-			"directoreditprotected": true,
+			"editdirectorprotected": true,
 			"editprotected": true,
 			"editsemiprotected": true,
 			"globalblock": true,
@@ -75,21 +90,6 @@
 			"unblockself": true,
 			"undelete": true
 		},
-		"global-interface-maintainer": {
-			"autopatrol": true,
-			"directoreditprotected": true,
-			"editcontentmodel": true,
-			"editinterface": true,
-			"editprotected": true,
-			"editsemiprotected": true,
-			"editsitecss": true,
-			"editsitejs": true,
-			"editsitejson": true,
-			"editusercss": true,
-			"edituserjs": true,
-			"edituserjson": true,
-			"protect": true
-		},
 		"patroller": {
 			"autoconfirmed": true,
 			"autopatrol": true,
@@ -109,12 +109,12 @@
 	},
 	"PrivilegedGroups": [
 		"autopatroller",
-		"cats",
 		"global-interface-maintainer",
+		"global-vandalization-handler",
 		"patroller"
 	],
 	"GroupsAddToSelf": {
-		"cats": [
+		"global-vandalization-handler": [
 			"bot"
 		]
 	},
@@ -122,13 +122,46 @@
 		"autopatroller": [
 			"autopatroller"
 		],
-		"cats": [
+		"bot": [
+			"bot"
+		],
+		"bureaucrat": [
+			"bureaucrat"
+		],
+		"global-vandalization-handler": [
 			"bot"
 		],
 		"patroller": [
 			"patroller"
 		]
 	},
+	"AddGroups": {
+		"bureaucrat": [
+			"autopatroller",
+			"bot",
+			"bureaucrat",
+			"sysop",
+			"patroller"
+		],
+		"sysop": [
+			"autopatroller"
+		]
+	},
+	"RemoveGroups": {
+		"bureaucrat": [
+			"autopatroller",
+			"bot",
+			"bureaucrat",
+			"sysop",
+			"patroller"
+		],
+		"sysop": [
+			"autopatroller"
+		]
+	},
+	"AvailableRights": [
+		"editdirectorprotected"
+	],
 	"ExtensionMessagesFiles": {
 		"MinecraftWikiMessagesNamespaces": "MinecraftWikiMessages.namespaces.php"
 	},
@@ -138,6 +171,9 @@
 		],
 		"Namespace": [
 			"i18n/namespace"
+		],
+		"Right": [
+			"i18n/right"
 		],
 		"UserGroup": [
 			"i18n/usergroup"
